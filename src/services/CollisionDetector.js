@@ -1,5 +1,5 @@
-import Entity from '../entities/Entity.js';
-import Player from '../entities/player/Player.js';
+import Entity from './../entities/Entity.js';
+import Player from './../entities/player/Player.js';
 import Map from './Map.js';
 
 /**

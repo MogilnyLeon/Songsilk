@@ -1,5 +1,5 @@
 import GameStateName from "./enums/GameStateName.js";
-import Game from "../lib/Game.js";
+import Game from "./../lib/Game.js";
 import {
     canvas,
     CANVAS_WIDTH,

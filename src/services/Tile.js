@@ -1,4 +1,4 @@
-import Sprite from '../../lib/Sprite.js';
+import Sprite from './../../lib/Sprite.js';
 
 /**
  * Represents a single tile in the game world.

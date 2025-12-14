@@ -1,8 +1,8 @@
 import PlayerState from './PlayerState.js';
-import PlayerStateName from '../../enums/PlayerStateName.js';
+import PlayerStateName from './../../enums/PlayerStateName.js';
 import Player from './Player.js';
-import { input } from '../../globals.js';
-import Input from '../../../lib/Input.js';
+import { input } from './../../globals.js';
+import Input from './../../../lib/Input.js';
 
 /**
  * Represents the falling state of the player.

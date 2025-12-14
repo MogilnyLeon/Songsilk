@@ -1,8 +1,8 @@
-import { HealthbarMaskConfig, loadUISprites, UIspriteConfig } from "../../config/SpriteConfig.js";
-import Animation from "../../lib/Animation.js";
-import Easing from "../../lib/Easing.js";
-import ImageName from "../enums/ImageName.js";
-import { images, timer } from "../globals.js";
+import { HealthbarMaskConfig, loadUISprites, UIspriteConfig } from "./../../config/SpriteConfig.js";
+import Animation from "./../../lib/Animation.js";
+import Easing from "./../../lib/Easing.js";
+import ImageName from "./../enums/ImageName.js";
+import { images, timer } from "./../globals.js";
 
 export default class UserInterface {
 

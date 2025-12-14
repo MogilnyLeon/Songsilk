@@ -1,5 +1,4 @@
-import { oneInXChance } from "../../../lib/Random.js";
-import BossStateName from "../../enums/BossStateName.js";
+import BossStateName from "./../../enums/BossStateName.js";
 import FinalJuryState from "./FinalJuryState.js";
 
 export default class FinalJuryFallingState extends FinalJuryState {

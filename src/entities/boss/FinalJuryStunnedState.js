@@ -1,6 +1,6 @@
-import Vector from "../../../lib/Vector.js";
-import BossStateName from "../../enums/BossStateName.js";
-import { timer } from "../../globals.js";
+import Vector from "./../../../lib/Vector.js";
+import BossStateName from "./../../enums/BossStateName.js";
+import { timer } from "./../../globals.js";
 import FinalJuryState from "./FinalJuryState.js";
 
 export default class FinalJuryStunnedState extends FinalJuryState {

@@ -1,6 +1,6 @@
-import SoundName from "../../enums/SoundName.js";
-import { sounds, timer } from "../../globals.js";
-import { Stats } from "../../services/Stats.js";
+import SoundName from "./../../enums/SoundName.js";
+import { sounds, timer } from "./../../globals.js";
+import { Stats } from "./../../services/Stats.js";
 import PlayerState from "./PlayerState.js";
 
 export default class PlayerDyingState extends PlayerState {

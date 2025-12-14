@@ -1,18 +1,18 @@
 import State from './../../lib/State.js';
 import Debug from '../../lib/Debug.js';
-import Map from '../services/Map.js';
-import Camera from '../services/Camera.js';
-import { canvas, CANVAS_WIDTH, debugOptions, images, sounds, stateMachine, timer } from '../globals.js';
-import Player from '../entities/player/Player.js';
-import Tile from '../services/Tile.js';
-import ImageName from '../enums/ImageName.js';
-import MusicName from '../enums/MusicName.js';
-import Particle from '../../lib/Particle.js';
-import Vector from '../../lib/Vector.js';
-import UserInterface from '../services/UserInterface.js';
-import FinalJury from '../entities/boss/FinalJury.js';
-import { getRandomNumber, getRandomPositiveInteger } from '../../lib/Random.js';
-import GameStateName from '../enums/GameStateName.js';
+import Map from './../services/Map.js';
+import Camera from './../services/Camera.js';
+import { canvas, CANVAS_WIDTH, debugOptions, images, sounds, stateMachine, timer } from './../globals.js';
+import Player from './../entities/player/Player.js';
+import Tile from './../services/Tile.js';
+import ImageName from './../enums/ImageName.js';
+import MusicName from './../enums/MusicName.js';
+import Particle from './../../lib/Particle.js';
+import Vector from './../../lib/Vector.js';
+import UserInterface from './../services/UserInterface.js';
+import FinalJury from './../entities/boss/FinalJury.js';
+import { getRandomNumber, getRandomPositiveInteger } from './../../lib/Random.js';
+import GameStateName from './../enums/GameStateName.js';
 
 /**
  * Represents the main play state of the game.

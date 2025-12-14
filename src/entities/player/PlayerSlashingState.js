@@ -1,8 +1,8 @@
-import { getRandomPositiveInteger } from "../../../lib/Random.js";
-import PlayerStateName from "../../enums/PlayerStateName.js";
-import SoundName from "../../enums/SoundName.js";
-import { sounds } from "../../globals.js";
-import DamageCollider from "../collidervariants/DamageCollider.js";
+import { getRandomPositiveInteger } from "./../../../lib/Random.js";
+import PlayerStateName from "./../../enums/PlayerStateName.js";
+import SoundName from "./../../enums/SoundName.js";
+import { sounds } from "./../../globals.js";
+import DamageCollider from "./../collidervariants/DamageCollider.js";
 import PlayerState from "./PlayerState.js"
 
 export default class PlayerSlashingState extends PlayerState {

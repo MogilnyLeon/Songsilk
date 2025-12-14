@@ -1,11 +1,11 @@
-import Input from '../../../lib/Input.js';
-import State from '../../../lib/State.js';
-import { PlayerConfig } from '../../../config/PlayerConfig.js';
-import { debugOptions, input } from '../../globals.js';
-import Tile from '../../services/Tile.js';
-import CollisionDetector from '../../services/CollisionDetector.js';
+import Input from './../../../lib/Input.js';
+import State from './../../../lib/State.js';
+import { PlayerConfig } from './../../../config/PlayerConfig.js';
+import { debugOptions, input } from './../../globals.js';
+import Tile from './../../services/Tile.js';
+import CollisionDetector from './../../services/CollisionDetector.js';
 import Player from './Player.js';
-import PlayerStateName from '../../enums/PlayerStateName.js';
+import PlayerStateName from './../../enums/PlayerStateName.js';
 
 /**
  * Base class for all player states.

@@ -1,7 +1,7 @@
-import BossStateName from "../../enums/BossStateName.js";
-import SoundName from "../../enums/SoundName.js";
-import { sounds, timer } from "../../globals.js";
-import FirePillarCollider from "../collidervariants/FirePillarCollider.js";
+import BossStateName from "./../../enums/BossStateName.js";
+import SoundName from "./../../enums/SoundName.js";
+import { sounds, timer } from "./../../globals.js";
+import FirePillarCollider from "./../collidervariants/FirePillarCollider.js";
 import FinalJuryState from "./FinalJuryState.js";
 
 export default class FinalJurySlammingState extends FinalJuryState {

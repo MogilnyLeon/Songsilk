@@ -1,6 +1,6 @@
-import { CameraSettings } from '../../config/CameraConfig.js';
-import { PlayerConfig } from '../../config/PlayerConfig.js';
-import Vector from '../../lib/Vector.js';
+import { CameraSettings } from './../../config/CameraConfig.js';
+import { PlayerConfig } from './../../config/PlayerConfig.js';
+import Vector from './../../lib/Vector.js';
 
 /**
  * Represents a camera that follows the player in a 2D game world.

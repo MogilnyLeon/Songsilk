@@ -1,11 +1,11 @@
-import State from '../../lib/State.js';
+import State from './../../lib/State.js';
 import {
 	CANVAS_HEIGHT,
 	CANVAS_WIDTH,
 	sounds,
 	stateMachine,
 	timer,
-} from '../globals.js';
+} from './../globals.js';
 // Code taken directly from the Zelda assignment
 /**
  * An "intermediary" state whose sole job is to play a fade out/in animation.

@@ -1,9 +1,9 @@
-import Sprite from '../../lib/Sprite.js';
-import ImageName from '../enums/ImageName.js';
+import Sprite from './../../lib/Sprite.js';
+import ImageName from './../enums/ImageName.js';
 import Tile from './Tile.js';
 import Layer from './Layer.js';
-import { debugOptions, images } from '../globals.js';
-import Block from '../entities/Block.js';
+import { debugOptions, images } from './../globals.js';
+import Block from './../entities/Block.js';
 
 /**
  * Represents the game map, including layers, blocks, and entities.

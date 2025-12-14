@@ -1,8 +1,8 @@
-import { getRandomPositiveInteger } from "../../../lib/Random.js";
-import BossStateName from "../../enums/BossStateName.js";
-import SoundName from "../../enums/SoundName.js";
-import { sounds } from "../../globals.js";
-import FirePillarCollider from "../collidervariants/FirePillarCollider.js";
+import { getRandomPositiveInteger } from "./../../../lib/Random.js";
+import BossStateName from "./../../enums/BossStateName.js";
+import SoundName from "./../../enums/SoundName.js";
+import { sounds } from "./../../globals.js";
+import FirePillarCollider from "./../collidervariants/FirePillarCollider.js";
 import FinalJuryState from "./FinalJuryState.js";
 
 export default class FinalJuryFireSpinningstate extends FinalJuryState {

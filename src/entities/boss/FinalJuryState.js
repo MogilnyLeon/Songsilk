@@ -1,11 +1,11 @@
-import { BossConfig } from "../../../config/BossConfig.js";
-import { getRandomPositiveInteger, oneInXChance } from "../../../lib/Random.js";
-import State from "../../../lib/State.js";
-import BossStateName from "../../enums/BossStateName.js";
-import SoundName from "../../enums/SoundName.js";
-import { debugOptions, sounds } from "../../globals.js";
-import CollisionDetector from "../../services/CollisionDetector.js";
-import Tile from "../../services/Tile.js";
+import { BossConfig } from "./../../../config/BossConfig.js";
+import { getRandomPositiveInteger, oneInXChance } from "./../../../lib/Random.js";
+import State from "./../../../lib/State.js";
+import BossStateName from "./../../enums/BossStateName.js";
+import SoundName from "./../../enums/SoundName.js";
+import { debugOptions, sounds } from "./../../globals.js";
+import CollisionDetector from "./../../services/CollisionDetector.js";
+import Tile from "./../../services/Tile.js";
 
 export default class FinalJuryState extends State {
     constructor(boss) {

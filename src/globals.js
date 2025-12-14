@@ -1,9 +1,9 @@
-import Fonts from '../lib/Fonts.js';
-import Images from '../lib/Images.js';
-import Input from '../lib/Input.js';
-import Sounds from '../lib/Sounds.js';
-import StateMachine from '../lib/StateMachine.js';
-import Timer from '../lib/Timer.js';
+import Fonts from './../lib/Fonts.js';
+import Images from './../lib/Images.js';
+import Input from './../lib/Input.js';
+import Sounds from './../lib/Sounds.js';
+import StateMachine from './../lib/StateMachine.js';
+import Timer from './../lib/Timer.js';
 
 export const canvas = document.createElement('canvas');
 export const context =

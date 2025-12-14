@@ -1,10 +1,10 @@
-import Input from "../../lib/Input.js";
+import Input from "./../../lib/Input.js";
 import State from "./../../lib/State.js";
-import GameStateName from "../enums/GameStateName.js";
-import ImageName from "../enums/ImageName.js";
-import MusicName from "../enums/MusicName.js";
-import { CANVAS_HEIGHT, CANVAS_WIDTH, images, input, sounds, stateMachine, timer } from "../globals.js";
-import { Stats } from "../services/Stats.js";
+import GameStateName from "./../enums/GameStateName.js";
+import ImageName from "./../enums/ImageName.js";
+import MusicName from "./../enums/MusicName.js";
+import { CANVAS_HEIGHT, CANVAS_WIDTH, images, input, sounds, stateMachine, timer } from "./../globals.js";
+import { Stats } from "./../services/Stats.js";
 
 export default class VictoryState extends State {
 	constructor() {

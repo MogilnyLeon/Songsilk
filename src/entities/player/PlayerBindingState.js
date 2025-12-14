@@ -1,6 +1,6 @@
-import PlayerStateName from "../../enums/PlayerStateName.js";
-import SoundName from "../../enums/SoundName.js";
-import { sounds } from "../../globals.js";
+import PlayerStateName from "./../../enums/PlayerStateName.js";
+import SoundName from "./../../enums/SoundName.js";
+import { sounds } from "./../../globals.js";
 import PlayerState from "./PlayerState.js";
 
 export default class PlayerBindingState extends PlayerState {

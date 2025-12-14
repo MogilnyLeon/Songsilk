@@ -1,7 +1,7 @@
 import PlayerState from './PlayerState.js';
-import Input from '../../../lib/Input.js';
-import { input, sounds } from '../../globals.js';
-import PlayerStateName from '../../enums/PlayerStateName.js';
+import Input from './../../../lib/Input.js';
+import { input, sounds } from './../../globals.js';
+import PlayerStateName from './../../enums/PlayerStateName.js';
 import Player from './Player.js';
 
 /**

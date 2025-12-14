@@ -1,8 +1,8 @@
-import Particle from "../../../lib/Particle.js";
+import Particle from "./../../../lib/Particle.js";
 import DamageCollider from "./DamageCollider.js";
-import { getRandomNumber, getRandomPositiveInteger } from "../../../lib/Random.js";
-import Vector from "../../../lib/Vector.js";
-import { debugOptions } from "../../globals.js";
+import { getRandomNumber, getRandomPositiveInteger } from "./../../../lib/Random.js";
+import Vector from "./../../../lib/Vector.js";
+import { debugOptions } from "./../../globals.js";
 
 
 export default class FirePillarCollider extends DamageCollider {

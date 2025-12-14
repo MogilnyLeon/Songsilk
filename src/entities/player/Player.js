@@ -1,23 +1,22 @@
-import { loadPlayerSprites, playerSpriteConfig, silkAnimConfig } from "../../../config/SpriteConfig.js";
-import Vector from "../../../lib/Vector.js";
-import Collider from "../../../lib/Collider.js";
-import Animation from '../../../lib/Animation.js';
-import ImageName from "../../enums/ImageName.js";
-import Entity from "../Entity.js";
-import { debugOptions, images, sounds, timer } from '../../globals.js';
-import StateMachine from "../../../lib/StateMachine.js";
-import PlayerStateName from "../../enums/PlayerStateName.js";
+import { loadPlayerSprites, playerSpriteConfig, silkAnimConfig } from "./../../../config/SpriteConfig.js";
+import Vector from "./../../../lib/Vector.js";
+import Animation from './../../../lib/Animation.js';
+import ImageName from "./../../enums/ImageName.js";
+import Entity from "./../Entity.js";
+import { debugOptions, images, sounds, timer } from './../../globals.js';
+import StateMachine from "./../../../lib/StateMachine.js";
+import PlayerStateName from "./../../enums/PlayerStateName.js";
 import PlayerIdlingState from "./PlayerIdlingState.js";
 import PlayerRunningState from "./PlayerRunningState.js";
 import PlayerJumpingState from "./PlayerJumpingState.js";
 import PlayerFallingState from "./PlayerFallingState.js";
 import PlayerSlashingState from "./PlayerSlashingState.js";
 import PlayerDownSlashingState from "./PlayerDownSlashingState.js";
-import { oneInXChance } from "../../../lib/Random.js";
-import { PlayerConfig } from "../../../config/PlayerConfig.js";
-import { getKnockbackDirection } from "../../../lib/Collision.js";
+import { oneInXChance } from "./../../../lib/Random.js";
+import { PlayerConfig } from "./../../../config/PlayerConfig.js";
+import { getKnockbackDirection } from "./../../../lib/Collision.js";
 import PlayerBindingState from "./PlayerBindingState.js";
-import SoundName from "../../enums/SoundName.js";
+import SoundName from "./../../enums/SoundName.js";
 import PlayerDyingState from "./PlayerDyingState.js";
 
 export default class Player extends Entity {

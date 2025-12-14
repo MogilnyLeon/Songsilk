@@ -1,10 +1,9 @@
 import PlayerState from './PlayerState.js';
-import { input, sounds } from '../../globals.js';
-import { PlayerConfig } from '../../../config/PlayerConfig.js';
-import Input from '../../../lib/Input.js';
-import PlayerStateName from '../../enums/PlayerStateName.js';
+import { input, sounds } from './../../globals.js';
+import { PlayerConfig } from './../../../config/PlayerConfig.js';
+import Input from './../../../lib/Input.js';
+import PlayerStateName from './../../enums/PlayerStateName.js';
 import Player from './Player.js';
-import MusicName from '../../enums/MusicName.js';
 
 /**
  * Represents the walking state of the player.

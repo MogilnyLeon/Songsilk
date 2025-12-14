@@ -1,7 +1,7 @@
-import { didCollide, getKnockbackDirection } from "../../../lib/Collision.js";
-import { debugOptions, timer } from "../../globals.js";
-import Entity from "../Entity.js";
-import Player from "../player/Player.js";
+import { didCollide, getKnockbackDirection } from "./../../../lib/Collision.js";
+import { debugOptions, timer } from "./../../globals.js";
+import Entity from "./../Entity.js";
+import Player from "./../player/Player.js";
 
 export default class DamageCollider extends Entity {
     constructor(x, y, width, height, sprite = null, lifetime = 0.1, source = null, type = "horizontal") {
