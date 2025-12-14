@@ -1,5 +1,5 @@
 export const CameraSettings = {
-	lookahead: 100,
+	lookahead: 10,
 	damping: 300,
 };
 
