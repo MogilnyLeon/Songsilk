@@ -8,7 +8,8 @@ import Timer from './../lib/Timer.js';
 export const canvas = document.createElement('canvas');
 export const context =
     canvas.getContext('2d') || CanvasRenderingContext2D();
-const assetDefinition = await fetch('./config/assets.json').then((response) =>
+const base = window.location.pathname.replace(/\/[^/]*$/, '');
+const assetDefinition = await fetch(`${base}/config/assets.json`).then((response) =>
     response.json()
 );
 
