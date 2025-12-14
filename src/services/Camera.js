@@ -84,13 +84,12 @@ export default class Camera {
 			this.lastGroundedY = playerCenter.y;
 		}
 
-		// Calculate vertical camera adjustment
+		const deltaY = playerCenter.y - this.lastGroundedY;
+		const excess = Math.abs(deltaY) - this.verticalDeadzone;
+
 		let verticalAdjustment = 0;
-		if (
-			Math.abs(playerCenter.y - this.lastGroundedY) >
-			this.verticalDeadzone
-		) {
-			verticalAdjustment = playerCenter.y - this.lastGroundedY;
+		if (excess > 0) {
+			verticalAdjustment = Math.sign(deltaY) * excess;
 		}
 
 		// Calculate target camera position
@@ -107,7 +106,10 @@ export default class Camera {
 			const smoothFactor = 1 - Math.exp(-CameraSettings.damping * dt);
 			this.position.x += (target.x - this.position.x) * smoothFactor;
 			this.position.y += (target.y - this.position.y) * smoothFactor;
+			// const maxStepY = 600 * dt; // pixels per second
+			// const deltaCamY = target.y - this.position.y;
 
+			// this.position.y += Math.sign(deltaCamY) * Math.min(Math.abs(deltaCamY), maxStepY);
 			// Apply smoothing to lookahead
 			this.lookahead.x +=
 				(targetLookaheadX - this.lookahead.x) * smoothFactor;
