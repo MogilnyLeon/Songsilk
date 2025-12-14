@@ -1,4 +1,4 @@
-import State from '../../lib/State.js';
+import State from './../../lib/State.js';
 import Debug from '../../lib/Debug.js';
 import Map from '../services/Map.js';
 import Camera from '../services/Camera.js';
@@ -11,7 +11,6 @@ import Particle from '../../lib/Particle.js';
 import Vector from '../../lib/Vector.js';
 import UserInterface from '../services/UserInterface.js';
 import FinalJury from '../entities/boss/FinalJury.js';
-import { isAABBCollision } from '../../lib/Collision.js';
 import { getRandomNumber, getRandomPositiveInteger } from '../../lib/Random.js';
 import GameStateName from '../enums/GameStateName.js';
 
