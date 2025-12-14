@@ -1,5 +1,4 @@
-import State from '../../../lib/State.js';
-import MusicName from '../enums/MusicName.js';
+import State from '../../lib/State.js';
 import {
 	CANVAS_HEIGHT,
 	CANVAS_WIDTH,

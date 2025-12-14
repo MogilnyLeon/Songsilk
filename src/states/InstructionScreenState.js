@@ -1,5 +1,5 @@
 import Input from "../../lib/Input.js";
-import State from "../../lib/State.js";
+import State from "./../../lib/State.js";
 import GameStateName from "../enums/GameStateName.js";
 import ImageName from "../enums/ImageName.js";
 import { CANVAS_HEIGHT, CANVAS_WIDTH, images, input, stateMachine, timer } from "../globals.js";
